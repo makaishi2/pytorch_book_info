@@ -1,0 +1,14 @@
+MNIST
+.DS_Store
+.ipynb_checkpoints
+*.zip
+notebooks-work
+data
+dog_wolf
+hymenoptera_data
+pythonlibs
+local
+*.aux
+*.log
+*.gz
+~$*
