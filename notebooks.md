@@ -9,7 +9,7 @@
 |4章|[予測関数の定義](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/ch04_model_dev.ipynb)|
 |5章|[線形回帰](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/ch05_regression.ipynb)|
 |6章|[2値分類](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/ch06_bi_classifier.ipynb)|
-|7章|[多値分類](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/ch07_multi_classfier.ipynb)|
+|7章|[多値分類](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/ch07_multi_classifier.ipynb)|
 |8章|[MNISTを用いた数字認識](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/ch08_dl.ipynb)|
 |9章|[CNNによる画像認識](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/ch09_cnn.ipynb)|
 |10章|[チューニング技法](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/ch10_dl_tuing.ipynb)|
