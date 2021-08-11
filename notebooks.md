@@ -15,7 +15,9 @@
 |10章|[チューニング技法](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/ch10_dl_tuning.ipynb)|
 |11章|[学習済みモデルの利用](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/ch11_tr_learning.ipynb)|
 |12章|[カスタムデータの画像分類](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/ch12_custom_dl.ipynb)|
-
+|講座1|[Python入門](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/l01_python.ipynb)|
+|講座2|[NumPy入門](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/l02_numpy.ipynb)|
+|講座3|[Matplotlib入門](https://colab.research.google.com/github//makaishi2/pytorch_book_info/blob/main/notebooks/l03_matplotlib.ipynb)|
 
 ---
 
