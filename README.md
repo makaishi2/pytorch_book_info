@@ -72,7 +72,7 @@
 * [FAQ](refs/faqs.md)
 
 
-### 実習Notebookリンク
+## 実習Notebookリンク
 　本書の実習コードは、Google Colabで動かすことを前提に、すべてGithub(当サポートサイト)で公開しています。  
 
 [実習Notebook一覧](notebooks.md)
