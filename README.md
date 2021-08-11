@@ -12,10 +12,6 @@
 [Kindle](https://www.amazon.co.jp/dp/B08F9P726T/)  
 -->  
 
-<div align="left">
-<img src="images/hyoshi.png" width="200">
-</div>
-
 　当サイトは、書籍「最短コースでわかる PyTorch &深層学習プログラミング」のサポートサイトです。  
 　
 
@@ -60,8 +56,8 @@
 
 ### 講座　
 * Python入門
-* NumPy
-* Matplotlib
+* NumPy入門
+* Matplotlib入門
 
 
 
