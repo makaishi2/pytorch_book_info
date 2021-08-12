@@ -2,7 +2,7 @@
 
 ### ONNXとは
 　ONNXはOpen Neural Network Exchangeの略称で、機械学習・ディープラーニングで広く使用されている標準フォーマットです。  
-　PytorchやKerasなどの機械学習フレームワークからエクスポートすることができ、ONNX RuntimeやTensorRT、ailia SDKなどの予測に特化したSDKを用いてエッジ環境など様々は環境でモデルを使った予測が可能になります。
+　PytorchやKerasなどの機械学習フレームワークからエクスポートすることができ、ONNX RuntimeやTensorRT、ailia SDKなどの予測に特化したSDKを用いてエッジ環境など様々な環境でモデルを使った予測が可能になります。
 
 ### PyTorchからのエクスポート方法
 　PyTorchで作ったモデルをONNX形式にエクスポートする手順はとても簡単です。例として本書11.8節で作ったモデルをエクスポートすることにします。  
