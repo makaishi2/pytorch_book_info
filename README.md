@@ -5,7 +5,14 @@
 </div>
 
 
-### Amazonへのリンク
+## 実習Notebookリンク
+　本書の実習コードは、Google Colabで動かすことを前提に、すべてGithub(当サポートサイト)で公開しています。  
+
+[実習Notebook一覧](notebooks.md)
+
+
+
+## Amazonへのリンク
 [単行本](https://www.amazon.co.jp/dp/4296110322)  
 <!---
 
@@ -75,11 +82,6 @@
 
 * [FAQ](refs/faqs.md)
 
-
-## 実習Notebookリンク
-　本書の実習コードは、Google Colabで動かすことを前提に、すべてGithub(当サポートサイト)で公開しています。  
-
-[実習Notebook一覧](notebooks.md)
 
 ## その他解説記事
 
