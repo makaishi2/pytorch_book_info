@@ -11,7 +11,7 @@
 
 [実習Notebook一覧](notebooks.md)
 
-[実習Notebookの動かし方](ref/how-to-run.md)
+[実習Notebookの動かし方](refs/how-to-run.md)
 
 
 
