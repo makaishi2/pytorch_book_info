@@ -1,10 +1,11 @@
 ## 実習Notebookの動かし方
 
 **前提**  
-gmailアドレスを事前に取得し、別タブでGmailにログインした状態にします。
+Gmailアドレスを事前に取得し、別タブでGmailにログインした状態にします。
 
 
-1. 以下のリンクをクリックしてNotebook一覧を表示します・
+1. 以下のリンクをクリックしてNotebook一覧を表示します。  
+(コントロールキーを押しながらリンクをクリックすると別タブで開くことができます。)   
 [Notebook一覧](../notebooks.md)
 <!---
 [Notebook一覧](../notebooks.md){:target="_blank" rel="noopener"} 
