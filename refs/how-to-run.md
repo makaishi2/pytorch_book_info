@@ -5,7 +5,12 @@ gmailアドレスを事前に取得し、別タブでGmailにログインした�
 
 
 1. 以下のリンクをクリックしてNotebook一覧を表示します・
+[Notebook一覧](href="../notebooks.md){:target="_blank" rel="noopener"} 
+
+<!---
 <p><a href="../notebooks.md" target="_blank">Notebook一覧</a></p>
+-->  
+
 
 <div align="left">
 <img src="../images/howto-01.png" width="500">
