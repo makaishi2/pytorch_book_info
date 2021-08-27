@@ -4,7 +4,8 @@
 gmailアドレスを事前に取得し、別タブでGmailにログインした状態にします。
 
 
-1. [Notebook一覧](../notebooks.md) をクリックして下記のNotebook一覧を表示します。
+1. 以下のリンクをクリックしてNotebook一覧を表示します・
+<p><a href="../notebooks.md" target="_blank">Notebook一覧</a></p>
 
 <div align="left">
 <img src="../images/howto-01.png" width="500">
