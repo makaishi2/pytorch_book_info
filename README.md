@@ -4,11 +4,14 @@
 <img src="images/hyoshi.png" width="200">
 </div>
 
+　当サイトは、書籍「最短コースでわかる PyTorch &深層学習プログラミング」のサポートサイトです。  
 
 ## 実習Notebookリンク
 　本書の実習コードは、Google Colabで動かすことを前提に、すべてGithub(当サポートサイト)で公開しています。  
 
 [実習Notebook一覧](notebooks.md)
+
+[実習Notebookの動かし方](ref/how-to-run.md)
 
 
 
@@ -19,7 +22,6 @@
 [Kindle](https://www.amazon.co.jp/dp/B08F9P726T/)  
 -->  
 
-　当サイトは、書籍「最短コースでわかる PyTorch &深層学習プログラミング」のサポートサイトです。  
 　
 
 ## 内容紹介
