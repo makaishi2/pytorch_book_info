@@ -79,12 +79,12 @@
 
 勾配降下法の動作原理
 <div align="left">
-<img src="images/fig01.png" width="200">
+<img src="images/fig01.png" width="500">
 </div>
 
 PyTorchによる勾配降下法実装
 <div align="left">
-<img src="images/fig02.png" width="200">
+<img src="images/fig02.png" width="500">
 </div>
 
 ### 重要概念を一歩一歩確実に理解
@@ -92,7 +92,7 @@ PyTorchプログラミングにおいて重要な概念については、詰め�
 
 コースマップ
 <div align="left">
-<img src="images/fig03.png" width="200">
+<img src="images/fig03.png" width="600">
 </div>
 
 
@@ -101,7 +101,7 @@ PyTorchプログラミングにおいて重要な概念については、詰め�
 
 計算グラフの可視化例
 <div align="left">
-<img src="images/fig04.png" width="200">
+<img src="images/fig04.png" width="500">
 </div>
 
 
