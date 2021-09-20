@@ -129,6 +129,8 @@
 |Honto|[Honto](https://honto.jp/netstore/pd-book_31207319.html)||
 |読書メーター|[読書メーター](https://bookmeter.com/books/18544605)||
 |BookLive|[BookLive](https://booklive.jp/product/index/title_id/1014297/vol_no/001)||
+|twitter|[@makaishi2](https://twitter.com/makaishi2)|著者は原則twitterではつぶやきませんが、書籍に関連したつぶやきをretweetで紹介しています。|
+|IBM Blog|[AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|IBM勤務時代、会社のブログにインタビュー記事が紹介されています。|
 
 
 ***
