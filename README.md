@@ -126,8 +126,9 @@
 |ソース  |タイトルとリンク  |補足|
 |---|---|---|
 |Amazon|[Amazonレビュー](https://www.amazon.co.jp/product-reviews/4296110322)||
-
-
+|Honto|[Honto](https://honto.jp/netstore/pd-book_31207319.html)||
+|読書メーター|[読書メーター](https://bookmeter.com/books/18544605)||
+|BookLive|[BookLive](https://booklive.jp/product/index/title_id/1014297/vol_no/001)||
 
 
 ***
