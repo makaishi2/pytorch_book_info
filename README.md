@@ -131,6 +131,6 @@
 |BookLive|[BookLive](https://booklive.jp/product/index/title_id/1014297/vol_no/001)||
 |twitter|[@makaishi2](https://twitter.com/makaishi2)|著者は原則twitterではつぶやきませんが、書籍に関連したつぶやきをretweetで紹介しています。|
 |IBM Blog|[AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|IBM勤務時代、会社のブログにインタビュー記事が紹介されています。|
-
+|からあげ様ブログ|[PyTorch入門書の決定版！「最短コースでわかる PyTorch ＆深層学習プログラミング」](https://karaage.hatenadiary.jp/entry/2021/09/24/073000)|AI関連で有名なブロガーである「からあげ」様による書評です。|
 
 ***
