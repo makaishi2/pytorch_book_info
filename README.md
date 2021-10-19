@@ -104,17 +104,6 @@
 
 
 
-## 正誤訂正・FAQ
-
-<!---
-* [Notebook補足情報](notebook-ref.md)
--->  
-
-* [正誤訂正](refs/errors.md)
-
-* [FAQ](refs/faqs.md)
-
-
 ## その他解説記事
 
 * [ONNXファイルへのエクスポート方法](refs/onnx.md)  
@@ -135,3 +124,16 @@
 |IBM Blog|[AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|IBM勤務時代、会社のブログにインタビュー記事が紹介されています。|
 
 ***
+
+
+## 正誤訂正・FAQ
+
+<!---
+* [Notebook補足情報](notebook-ref.md)
+-->  
+
+* [正誤訂正](refs/errors.md)
+
+* [FAQ](refs/faqs.md)
+
+
