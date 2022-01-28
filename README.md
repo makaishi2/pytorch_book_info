@@ -117,6 +117,7 @@
 
 |ソース  |タイトルとリンク  |補足|
 |---|---|---|
+|speakerdeck|[最短コースでPyTorchとディープラーニングを征服するためのツボ](https://bit.ly/3nZHmdB)|2021年11月に行った学生向けイベントでのプレゼン資料。PyTorchと機械学習アルゴリズム理解のポイントをコンパクトにまとめています。|
 |qiita|[書籍「最短コースでわかる PyTorch &深層学習プログラミング」補足情報と紹介](https://qiita.com/makaishi2/items/2c40fe43c01b35acb8c4)|書籍に書けなかった補足情報と書籍の特徴紹介|
 |qiita|[書籍「最短コースでわかる PyTorch &深層学習プログラミング」3値分類モデルの決定境界の表示](https://qiita.com/makaishi2/items/3ff0b0a0496e115603bc)|３値分類問題の決定境界描画の実装と解説(7章の例題補足)|
 |qiita|[PyTorchのDL ModelをWatson MLで動かす](https://qiita.com/makaishi2/items/641466cbe99ad9575df3)|PyTorchで作ったモデルをIBM Cloudにデプロイする手順です。上の[記事](refs/onnx.md)も参考にして下さい|
