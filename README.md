@@ -120,8 +120,9 @@
 |speakerdeck|[最短コースでPyTorchとディープラーニングを征服するためのツボ](https://bit.ly/3nZHmdB)|2021年11月に行った学生向けイベントでのプレゼン資料。PyTorchと機械学習アルゴリズム理解のポイントをコンパクトにまとめています。|
 |qiita|[書籍「最短コースでわかる PyTorch &深層学習プログラミング」補足情報と紹介](https://qiita.com/makaishi2/items/2c40fe43c01b35acb8c4)|書籍に書けなかった補足情報と書籍の特徴紹介|
 |qiita|[書籍「最短コースでわかる PyTorch &深層学習プログラミング」3値分類モデルの決定境界の表示](https://qiita.com/makaishi2/items/3ff0b0a0496e115603bc)|３値分類問題の決定境界描画の実装と解説(7章の例題補足)|
-|qiita|[PyTorchのDL ModelをWatson MLで動かす](https://qiita.com/makaishi2/items/641466cbe99ad9575df3)|PyTorchで作ったモデルをIBM Cloudにデプロイする手順です。上の[記事](refs/onnx.md)も参考にして下さい|
-|twitter|[@makaishi2](https://twitter.com/makaishi2)|書籍に関連したつぶやきをretweetで紹介しています。|
+|qiita|[PyTorch 学習メモ (Karasと同じモデルを作ってみた)](https://qiita.com/makaishi2/items/3676d216fe9b34b63430)|本格的にPyTorchの勉強をはじめて約半日後にまとめた自分用のメモ。今回の本の原点とも言える記事です。今、読み直しても大筋間違ったことをいっていないのは自画自賛できるかも|
+|qiita|[PyTorchのDL ModelをWatson MLで動かす](https://qiita.com/makaishi2/items/3676d216fe9b34b63430)|PyTorchで作ったモデルをIBM Cloudにデプロイする手順です。上の[記事(ONNXファイルへのエクスポート方法)](refs/onnx.md)も参考にして下さい|
+|twitter|[@makaishi2](https://twitter.com/makaishi2)|著者のツイッターアカウント。書籍に関連した情報発信とretweetが中心です。|
 |IBM Blog|[AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|IBM勤務時代、会社のブログにインタビュー記事が紹介されています。|
 
 
