@@ -125,6 +125,7 @@
 |qiita|[書籍「最短コースでわかる PyTorch &深層学習プログラミング」3値分類モデルの決定境界の表示](https://qiita.com/makaishi2/items/3ff0b0a0496e115603bc)|7章の例題補足としての、３値分類問題の決定境界描画の実装と解説です。|
 |qiita|[PyTorch 学習メモ (Karasと同じモデルを作ってみた)](https://qiita.com/makaishi2/items/3676d216fe9b34b63430)|本格的にPyTorchの勉強をはじめて約半日後にまとめた自分用のメモ。今回の本の原点とも言える記事です。今、読み直しても大筋間違ったことをいっていないのは自画自賛できるかも。|
 |qiita|[PyTorchのDL ModelをWatson MLで動かす](https://qiita.com/makaishi2/items/3676d216fe9b34b63430)|PyTorchで作ったモデルをIBM Cloudにデプロイする手順です。上の[記事(ONNXファイルへのエクスポート方法)](refs/onnx.md)も参考にして下さい。|
+|プレゼン資料|[AI・DS領域を学習したい方に向けて](https://speakerdeck.com/makaishi2/aidsling-yu-woxue-xi-sitaifang-nixiang-kete)|2022-12-03に異業種データサイエンス研究会主催で行われたイベントでの招講演資料です。本書を含め、それぞれの書籍執筆への「思い」を語っています。|
 |twitter|[@makaishi2](https://twitter.com/makaishi2)|著者のツイッターアカウント。書籍に関連した情報発信とretweetが中心です。|
 |IBM Blog|[AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|IBM勤務時代、会社のブログにインタビュー記事が紹介されています。|
 
@@ -139,8 +140,8 @@
 |Honto|[Honto](https://honto.jp/netstore/pd-book_31207319.html)||
 |読書メーター|[読書メーター](https://bookmeter.com/books/18544605)||
 |BookLive|[BookLive](https://booklive.jp/product/index/title_id/1014297/vol_no/001)||
+|レバテック　ブログ|[E資格の難易度や勉強方法、取得のメリットを徹底解説！](https://career.levtech.jp/guide/knowhow/article/697/)|E資格勉強法の解説の中で本書をご紹介いただいています。|
 |からあげ様ブログ|[PyTorch入門書の決定版！「最短コースでわかる PyTorch ＆深層学習プログラミング」](https://karaage.hatenadiary.jp/entry/2021/09/24/073000)|AI関連で有名なブロガーである「からあげ」様による書評です。|
-|新米エンジニアの読んだ技術書を一言まとめるブログ|[Pytorch&深層学習プログラミングはやはり初心者の見方だった](http://blog.livedoor.jp/sicut_study/archives/10927800.html)|本書について激賞していただいています|
 
 ***
 
