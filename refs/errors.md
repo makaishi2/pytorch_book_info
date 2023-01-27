@@ -6,12 +6,11 @@
 |---|---|---|---|---|
 |2章|p.81 最終行|以下の記載を追記<br>(sum 関数を使うと、ちょうど z と y の勾配が一致します)。|わかりにくい箇所なので記載を補いました。|2022-05-04|
 |2章|p.82 コード2-22 1行目|(出版時)<br># 勾配計算のためには、最終値はスカラーの必要があるため、ダミーでsum関数をかける<br> (修正後)<br># 勾配計算のため、sum 関数で 1階テンソルの関数値をスカラー化する<br># (sum 関数を各要素で偏微分した結果は1なので、元の関数の微分結果を取得可能 ) <br># ( 詳細はサポートサイトの解説を参照のこと )|コメント文の説明がわかりにくかったので記載を補いました。|2022-05-04|
-|4章|p.129 コード3-27 6行目|(誤)plt.show()l<br>(正)plt.show()||2023-01-20|
 |4章|p.134 図4-3のweightのサイズ|(誤)左から順に[784,128] [128,10]<br>(正)左から順に[128,784] [10,128]|本書で重み行列weightのサイズはshapeの結果で表記しています。このルールに基づくと現在の図と行・列の順番が逆になります。|2022-02-25|
 |4章|p.136 図4-5のweightのサイズ|(誤)左から順に[784,128] [128,10]<br>(正)左から順に[128,784] [10,128]|本書で重み行列weightのサイズはshapeの結果で表記しています。このルールに基づくと現在の図と行・列の順番が逆になります。|2022-02-25|
 |4章|p.145 図4-7及び図4-8のweightのサイズ|(誤)左から順に[1,10] [10,10] [10,1]<br>(正)左から順に[10,1] [10,10][1,10]|本書で重み行列weightのサイズはshapeの結果で表記しています。このルールに基づくと現在の図と行・列の順番が逆になります。|2022-02-25|
 |5章|p.169 下から5行目|(誤)labels<br>(正)labels1(labels1はlabelsのデータ形式を変換したもの。p.180～181を参照)||2022-04-03|
-|5章|p.171 コード5-16 1行目から|(出版時)<br># 学習用データ準備<br><br># ライブラリのインポート<br>from sklearn.datasets import load_boston<br><br># データ読み込み<br>boston = load_boston()<br><br># 入力データと正解データ取得<br>x_org, yt = boston.data, boston.target<br><br># 項目名リスト取得<br>feature_names = boston.feature_names<br><br>(現在)<br># 「ボストン・データセット」はscikit-learnのライブラリでも取得できるが、<br># その場合、将来版で利用できなくなる予定のため、別Webサイトから取得する<br>data_url = "http://lib.stat.cmu.edu/datasets/boston"<br>raw_df = pd.read_csv(data_url, sep="\s+", <br>    skiprows=22, header=None)<br>x_org = np.hstack([raw_df.values[::2, :], <br>    raw_df.values[1::2, :2]])<br>yt = raw_df.values[1::2, 2]<br>feature_names = np.array(['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX',<br>    'RM', 'AGE', 'DIS', 'RAD', 'TAX', 'PTRATIO','B', 'LSTAT'])<br>|出版時に利用していたscikit-learnのライブラリが将来利用できなくなるので、代替手段に実装を変えました。|2022-05-15|
+|5章|p.171 コード5-16 3行目から|(出版時)<br># ライブラリのインポート<br>from sklearn.datasets import load_boston<br><br># データ読み込み<br>boston = load_boston()<br><br># 入力データと正解データ取得<br>x_org, yt = boston.data, boston.target<br><br># 項目名リスト取得<br>feature_names = boston.feature_names<br><br>(現在)<br># 「ボストン・データセット」はscikit-learnのライブラリでも取得できるが、<br># その場合、将来版で利用できなくなる予定のため、別Webサイトから取得する<br>data_url = "http://lib.stat.cmu.edu/datasets/boston"<br>raw_df = pd.read_csv(data_url, sep="\s+", <br>    skiprows=22, header=None)<br>x_org = np.hstack([raw_df.values[::2, :], <br>    raw_df.values[1::2, :2]])<br>yt = raw_df.values[1::2, 2]<br>feature_names = np.array(['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX',<br>    'RM', 'AGE', 'DIS', 'RAD', 'TAX', 'PTRATIO','B', 'LSTAT'])<br>|出版時に利用していたscikit-learnのライブラリが将来利用できなくなるので、代替手段に実装を変えました。|2022-05-15|
 |5章|p.193 コード5-44 3行目|(誤)``from torchsummary import summary`` <br>(正)``from torchinfo import summary``||2021-10-18|
 |8章|p.280 図8-3のweightのサイズ|(誤)左から順に[784,128] [128,10]<br>(正)左から順に[128,784] [10,128]|本書で重み行列weightのサイズはshapeの結果で表記しています。このルールに基づくと現在の図と行・列の順番が逆になります。|2022-02-25|
 |8章|p.314 コード8-33  最終行|（出版時）val_acc +=  (predicted_test == labels_test).sum()<br>（現在）val_acc +=  (predicted_test == labels_test).sum().item()|PyTorchのバージョン変更に伴い、出版時のコードがエラーになった問題への対応です。|2022-04-26|
@@ -23,6 +22,14 @@
 |11章|p.439 コード11-8 3行目|(誤)``summary(net,(3,112,112))``<br>(正)``summary(net,(100,3,112,112))``||2022-02-25|
 |講座1 L1.7|p.520 5行目|(誤) yという名前のライブラリのうちxという関数だけを利用 <br>(正) xという名前のライブラリのうちyという関数(または変数・クラス)だけを利用||2021-10-18|
 |講座3 L3.3|p.558 コードL3-9 6行目|(出版時) ``mnist = fetch_openml('mnist_784', version=1,)`` <br>(修正後) ``mnist = fetch_openml('mnist_784', version=1,as_frame=False)``|誤りではないのですが、最新版Anacondaに含まれるscikit-learn 0.24.0を使うとエラーになる事象が見つかり、将来に備えてコード側を修正しました。|2021-11-02|
+
+#### 第1版第2刷
+|章  |ページ  |内容　　　　　　　|補足|最終更新日|
+|---|---|---|---|---|
+|4章|p.129 コード3-27 6行目|(誤)plt.show()l<br>(正)plt.show()||2023-01-27|
+|8章|p.303 コード8-22 6行目|(変更前)``n_output = len(set(list(labels.data.numpy())))``<br>(変更後)``n_output = 10``|変更前の実装だと、期待していない値である9に設定される可能性があるのでより確実な実装に変更しました。|2023-01-27|
+|9章|p.349 コード9-21 6行目|(変更前)``n_output = len(set(list(labels.data.numpy())))``<br>(変更後)``n_output = len(classes)``|変更前の実装だと、期待していない値である9に設定される可能性があるのでより確実な実装に変更しました。|2023-01-27|
+
 
 <hr>
 
