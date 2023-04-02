@@ -1,5 +1,11 @@
 ## __init__.py
 
+このプログラムの全コード（修正後）は次のリンク先からアクセス可能です。
+
+https://github.com/makaishi2/pythonlibs/blob/main/torch_lib1/__init__.py
+
+
+
 ( 行頭が「-」: 削除された行、行頭が「+」:追加された行)
 
 ```
